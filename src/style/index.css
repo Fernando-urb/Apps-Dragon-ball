@@ -1,0 +1,40 @@
+/* body {
+    background-image: url(../img/body-index.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100dvh;
+    height:auto ;
+} */
+.saga-sayayin {
+    background-image: url(../img/saga-sayayin.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+.saga-freeza {
+    background-image: url(../img/saga-frezeer.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+.saga-cell{
+    background-image: url(../img/saga-cell.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+.saga-buu {
+    background-image: url(../img/saga-buu.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
