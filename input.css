@@ -1,3 +1,35 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *)); 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Negro puro personalizado */
+
+.dark .bg-white {
+    background-color: #000000 !important;
+}
+
+/* Texto con imagen de fondo */
+.text-image-bg {
+    background: linear-gradient(45deg, #ff6b35, #f7931e, #ffd700, #32cd32, #1e90ff, #9370db);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Imágenes de cards simétricas */
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
