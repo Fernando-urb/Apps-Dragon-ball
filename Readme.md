@@ -1,4 +1,4 @@
-# 🐉 Dragon Ball Z: Whack-a-Mole Game
+# 🐉 Dragon Ball Z:  Game
 
 ¡Un emocionante juego de golpear topos con temática de Dragon Ball Z! Golpea a los personajes que aparecen en la pantalla antes de que desaparezcan.
 
