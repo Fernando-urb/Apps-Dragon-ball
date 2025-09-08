@@ -24,6 +24,7 @@ body {
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+ min-height: 100vh;
  
  color: #202020;
 }
@@ -122,6 +123,35 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+.back-button-container {
+  position: absolute;
+  top: 20px;
+  right : 20px;
+  z-index: 100;
+}
+
+.back-button {
+  background: #0d5322;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.back-button:hover {
+  background-color: #74d691;
+  color: #0d5322;
+}
+
+
+
+
 
 /* Media queries para dispositivos más pequeños */
 @media (max-width: 768px) {

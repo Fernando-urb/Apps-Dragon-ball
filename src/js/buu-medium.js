@@ -32,14 +32,14 @@ musicaFondo.volume = 0.5;
 
 //variables
 
-let tiempo = 20;
+let tiempo = 25;
 let puntuacion = 0;
 let temporizador;
 let aparicionTopos;
 
 function iniciarJuego() {
   //reiniciar valores
-  tiempo = 20;
+  tiempo = 25;
   puntuacion = 0;
   mostrarTiempo.textContent = tiempo;
   mostrarPuntos.textContent = puntuacion;
